@@ -18,15 +18,15 @@ const Paragraph = ({words}) => (
     </div>
 )
 
-export const ContentPlaceholder = () => {
+export const ContentPlaceholder = () => (
     <div className="content-placeholder">
         <div className="header">
             <Word width={75} />
             <Word width={245} />
             <Word width={120} />
         </div>
-        {paragraphs}.map(words => (
+        {paragraphs.map(words => (
             <Paragraph words={words} />
-        ))
+        ))}
     </div>
-}
+)
