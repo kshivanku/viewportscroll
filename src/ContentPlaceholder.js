@@ -20,7 +20,7 @@ const Paragraph = ({words}) => (
 
 export const ContentPlaceholder = () => (
     <div className="content-placeholder">
-        <div className="header">
+        <div className="">
             <Word width={75} />
             <Word width={245} />
             <Word width={120} />
